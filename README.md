@@ -12,13 +12,13 @@ The kickstarter database contains the financial goals and amounts pledged by cat
 We created a pivot table containing the outcome of kickstarter plays (failed, successful or canceled plays) based on their launch date and another pivot table describing the seasonality of successful, failed and canceled plays. 
 Based on this analysis, we are able to determine, the optimal amount of money that should be raised (the goal) based on historical data of 1066 kickstarter plays from 2011 to 2017, and the right time period to launch the fund-raising process in the theater industry based on 1393 kickstarter theater ideas from 2010 to 2017. 
 ### Challenges
-
+The main challenge was setting up GitHub and using terminal to add my files onto the platform, as it was my first time using it. 
 
 ### Analysis of Outcomes Based on Launch Date
 <img src="Resources/Theater_Outcomes_vs_Launch.png" width="500">
-Looking at Theater_Outcomes_vs_Launch.png, we can infer that the most successful kickstarter theater projects, in absolute terms, were launched during the months of May and June. 
+Looking at Theater_Outcomes_vs_Launch.png, we can infer that the most successful kickstarter theater projects, in absolute terms, were launched during the months of May and June <a href="Kickstarter_Challenge.xlsx">Outcomes Based on Goals</a>. 
 However, the number of kickstarters launched during those 2 months alone contributed an average of 24% of the total kickstarters launched throughout the other months of the year. This means that theater creators were more inclined to start a fund-raising campaign during summer time.
-To better decide on which month a campaign should be launched, we should convert these numbers into ratios and look at the success rate, rather than the number of successful theater campaigns. 
+To better decide on which month a campaign should be launched, we should convert these numbers into ratios and look at the success rate, rather than the number of successful theater campaigns . 
 In doing so see Percentage_Successful_Theater_Campaigns.png, we can conclude that the month with the highest success rate is the month of May. 80% of theater campaigns succeeding in meeting their financial goals. We ca, also conclude that the lowest success rate occured when kickstarters were launched in December, where only 65% of campaigns succeeded in meeting their goals. 
 
 ### Analysis of Outcomes Based on Goals
@@ -26,6 +26,7 @@ In doing so see Percentage_Successful_Theater_Campaigns.png, we can conclude tha
 According to Outcomes_vs_Goals.png, the most successful campaigns for plays are ones that asked for less than $4999, where the success rate is above 70% as well as those with a goal ranging from $35,000 to $44,900, with a success rate of 67%. The success rate drops substantially as the goal increases as soon as the goal goes from less than $4999 to over $5000, going from over 70% success rate to 55% success rate when the goal is between $5000 to $9999. Because campaigns with larger funding requests (between $35K and $44,999) received a high success, this shows that goal isn't the only predicator for campaign success. These campaigns were either exceptionally well-run (good marketing, etc.) or the quality of the plays pitched was exceptionally good (talented directors, actors, good storyline etc.)
 
 ### Challenges and Difficulties Encountered
+The main challenge encountered was synching files onto GitHub using terminal and commands git commit, git push, etc. I made use of the free tutoring session offered to get help with this issue. 
 
 ## Results
 
