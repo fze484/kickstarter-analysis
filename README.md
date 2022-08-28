@@ -15,12 +15,14 @@ Based on this analysis, we are able to determine, the optimal amount of money th
 
 
 ### Analysis of Outcomes Based on Launch Date
+<img src="Resources/Theater_Outcomes_vs_Launch.png" width="500">
 Looking at Theater_Outcomes_vs_Launch.png, we can infer that the most successful kickstarter theater projects, in absolute terms, were launched during the months of May and June. 
 However, the number of kickstarters launched during those 2 months alone contributed an average of 24% of the total kickstarters launched throughout the other months of the year. This means that theater creators were more inclined to start a fund-raising campaign during summer time.
 To better decide on which month a campaign should be launched, we should convert these numbers into ratios and look at the success rate, rather than the number of successful theater campaigns. 
 In doing so see Percentage_Successful_Theater_Campaigns.png, we can conclude that the month with the highest success rate is the month of May. 80% of theater campaigns succeeding in meeting their financial goals. We ca, also conclude that the lowest success rate occured when kickstarters were launched in December, where only 65% of campaigns succeeded in meeting their goals. 
 
 ### Analysis of Outcomes Based on Goals
+<img src="Resources/utcomes_vs_Goals.png" width="500">
 According to Outcomes_vs_Goals.png, the most successful campaigns for plays are ones that asked for less than $4999, where the success rate is above 70% as well as those with a goal ranging from $35,000 to $44,900, with a success rate of 67%. The success rate drops substantially as the goal increases as soon as the goal goes from less than $4999 to over $5000, going from over 70% success rate to 55% success rate when the goal is between $5000 to $9999. Because campaigns with larger funding requests (between $35K and $44,999) received a high success, this shows that goal isn't the only predicator for campaign success. These campaigns were either exceptionally well-run (good marketing, etc.) or the quality of the plays pitched was exceptionally good (talented directors, actors, good storyline etc.)
 
 ### Challenges and Difficulties Encountered
